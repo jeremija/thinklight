@@ -1,7 +1,7 @@
 THINKLIGHT
 ----------
 
-Thinklight is an utility which enables the use of Thinkpad Light on Lenovo/IBM laptops. It has been tested on Lenovo/IBM T60p.
+Thinklight is an utility which enables the use of Thinkpad Light for blinking notifications on Lenovo/IBM laptops. It has been tested on Lenovo/IBM T60p.
 
 You need root privileges to use this utility. It is best to add an entry at the end of the `/etc/sudoers` file, like this:
 
