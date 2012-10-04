@@ -25,7 +25,8 @@ You can use CTRL+C or run the `sudo thinklight -q` which will check if there is 
 
 You can map any hotkey to disable the blinking, but if you're only using tty, you can map the ThinkVantage key to `sudo thinklight -q` command. Here is how it's done on Ubuntu:
 
-Add the following two lines to the /etc/acpi/events/thinkvantage FILE
+Add the following two lines to the `/etc/acpi/events/thinkvantage` file
+
     event=ibm/hotkey HKEY 00000080 00001018
     action=/usr/local/bin/thinklight -q
 
